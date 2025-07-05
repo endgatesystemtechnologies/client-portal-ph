@@ -1,0 +1,13 @@
+# PrivateHouse Admin Portal
+
+Standalone static admin login portal for PrivateHouse clients.
+
+## Usage
+
+Serve `public` folder via static server on your VPS.
+
+## Setup (example)
+
+```bash
+npm install -g serve
+serve -s public -l 8080
